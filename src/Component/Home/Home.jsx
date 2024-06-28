@@ -1,14 +1,13 @@
-import { Outlet } from "react-router-dom";
-import Navbar from "../Navbar/Navbar";
-import Footer from "../Footer/Footer";
+import Banner from "../Banner/Banner";
+import Books from "../Books/Books";
+
 
 
 const Home = () => {
     return (
         <div>
-            <Navbar></Navbar>
-            <Outlet></Outlet>
-            <Footer></Footer>
+            <Banner></Banner>
+            <Books></Books>
         </div>
     );
 };
