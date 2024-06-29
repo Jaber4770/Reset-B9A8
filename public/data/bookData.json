@@ -1,0 +1,368 @@
+[
+    {
+        "bookId": 1,
+        "bookName": "Social Engineering: The Art of Human Hacking",
+        "author": "Christopher Hadnagy",
+        "image": "https://m.media-amazon.com/images/I/71pXnVZWo5L._AC_UF1000,1000_QL80_.jpg",
+        "review": "A comprehensive guide to the ins and outs of social engineering.",
+        "totalPages": 416,
+        "rating": 4.7,
+        "category": "Social Engineering",
+        "tags": [
+            "Security",
+            "Psychology"
+        ],
+        "publisher": "Wiley",
+        "yearOfPublishing": 2010
+    },
+    {
+        "bookId": 2,
+        "bookName": "The Art of Deception",
+        "author": "Kevin D. Mitnick",
+        "image": "https://m.media-amazon.com/images/I/61tMgZNyA4L._AC_UF1000,1000_QL80_.jpg",
+        "review": "Explores the human side of security and how to defend against social engineering attacks.",
+        "totalPages": 368,
+        "rating": 4.5,
+        "category": "Social Engineering",
+        "tags": [
+            "Security",
+            "Psychology"
+        ],
+        "publisher": "Wiley",
+        "yearOfPublishing": 2002
+    },
+    {
+        "bookId": 3,
+        "bookName": "Unmasking the Social Engineer",
+        "author": "Christopher Hadnagy",
+        "image": "https://m.media-amazon.com/images/I/71WOmYe9riL._AC_UF1000,1000_QL80_.jpg",
+        "review": "Examines the psychological principles behind social engineering.",
+        "totalPages": 256,
+        "rating": 4.3,
+        "category": "Social Engineering",
+        "tags": [
+            "Security",
+            "Psychology"
+        ],
+        "publisher": "Wiley",
+        "yearOfPublishing": 2014
+    },
+    {
+        "bookId": 4,
+        "bookName": "Ghost in the Wires",
+        "author": "Kevin Mitnick",
+        "image": "https://m.media-amazon.com/images/I/71V5rXhglvL._AC_UF1000,1000_QL80_.jpg",
+        "review": "An autobiographical account of one of the most infamous hackers.",
+        "totalPages": 432,
+        "rating": 4.6,
+        "category": "Social Engineering",
+        "tags": [
+            "Security",
+            "Biography"
+        ],
+        "publisher": "Little, Brown and Company",
+        "yearOfPublishing": 2011
+    },
+    {
+        "bookId": 5,
+        "bookName": "Clean Code",
+        "author": "Robert C. Martin",
+        "image": "https://m.media-amazon.com/images/I/51E2055ZGUL._AC_UF1000,1000_QL80_.jpg",
+        "review": "A handbook of agile software craftsmanship.",
+        "totalPages": 464,
+        "rating": 4.7,
+        "category": "Programming",
+        "tags": [
+            "Software Development",
+            "Best Practices"
+        ],
+        "publisher": "Prentice Hall",
+        "yearOfPublishing": 2008
+    },
+    {
+        "bookId": 6,
+        "bookName": "The Pragmatic Programmer",
+        "author": "Andrew Hunt",
+        "image": "https://m.media-amazon.com/images/I/61ztlXgCmpL._AC_UF1000,1000_QL80_.jpg",
+        "review": "A journey to mastery in software development.",
+        "totalPages": 352,
+        "rating": 4.8,
+        "category": "Programming",
+        "tags": [
+            "Software Development",
+            "Best Practices"
+        ],
+        "publisher": "Addison-Wesley Professional",
+        "yearOfPublishing": 1999
+    },
+    {
+        "bookId": 7,
+        "bookName": "Introduction to the Theory of Computation",
+        "author": "Michael Sipser",
+        "image": "https://m.media-amazon.com/images/I/61dPNb6AUJL._AC_UF1000,1000_QL80_.jpg",
+        "review": "A comprehensive guide to theoretical computer science.",
+        "totalPages": 504,
+        "rating": 4.5,
+        "category": "Programming",
+        "tags": [
+            "Computer Science",
+            "Theory"
+        ],
+        "publisher": "Cengage Learning",
+        "yearOfPublishing": 1997
+    },
+    {
+        "bookId": 8,
+        "bookName": "Design Patterns: Elements of Reusable Object-Oriented Software",
+        "author": "Erich Gamma",
+        "image": "https://m.media-amazon.com/images/I/81gtKoapHFL._AC_UF1000,1000_QL80_.jpg",
+        "review": "A catalog of simple and succinct solutions to commonly occurring design problems.",
+        "totalPages": 395,
+        "rating": 4.6,
+        "category": "Programming",
+        "tags": [
+            "Software Development",
+            "Design Patterns"
+        ],
+        "publisher": "Addison-Wesley Professional",
+        "yearOfPublishing": 1994
+    },
+    {
+        "bookId": 9,
+        "bookName": "You Don't Know JS",
+        "author": "Kyle Simpson",
+        "image": "https://m.media-amazon.com/images/I/71mKvD89oEL._AC_UF1000,1000_QL80_.jpg",
+        "review": "An in-depth exploration of the core mechanisms of the JavaScript language.",
+        "totalPages": 278,
+        "rating": 4.7,
+        "category": "Programming",
+        "tags": [
+            "JavaScript",
+            "Web Development"
+        ],
+        "publisher": "O'Reilly Media",
+        "yearOfPublishing": 2014
+    },
+    {
+        "bookId": 10,
+        "bookName": "Effective Java",
+        "author": "Joshua Bloch",
+        "image": "https://m.media-amazon.com/images/I/7167aaVxs3L._AC_UF1000,1000_QL80_.jpg",
+        "review": "A guide to best practices in Java programming.",
+        "totalPages": 416,
+        "rating": 4.8,
+        "category": "Programming",
+        "tags": [
+            "Java",
+            "Software Development"
+        ],
+        "publisher": "Addison-Wesley Professional",
+        "yearOfPublishing": 2001
+    },
+    {
+        "bookId": 11,
+        "bookName": "The C Programming Language",
+        "author": "Brian W. Kernighan",
+        "image": "https://m.media-amazon.com/images/I/51EyaJeebHL._AC_UF1000,1000_QL80_.jpg",
+        "review": "The definitive guide to C programming.",
+        "totalPages": 272,
+        "rating": 4.5,
+        "category": "Programming",
+        "tags": [
+            "C Programming",
+            "Software Development"
+        ],
+        "publisher": "Prentice Hall",
+        "yearOfPublishing": 1978
+    },
+    {
+        "bookId": 12,
+        "bookName": "The Web Application Hacker's Handbook",
+        "author": "Dafydd Stuttard",
+        "image": "https://m.media-amazon.com/images/I/81a2pCFfm9L._AC_UF1000,1000_QL80_.jpg",
+        "review": "A comprehensive guide to web application security testing.",
+        "totalPages": 912,
+        "rating": 4.6,
+        "category": "Hacking",
+        "tags": [
+            "Security",
+            "Web Applications"
+        ],
+        "publisher": "Wiley",
+        "yearOfPublishing": 2011
+    },
+    {
+        "bookId": 13,
+        "bookName": "Metasploit: The Penetration Tester's Guide",
+        "author": "David Kennedy",
+        "image": "https://m.media-amazon.com/images/I/81w9ymMApUL._AC_UF1000,1000_QL80_.jpg",
+        "review": "A guide to the Metasploit Framework for penetration testing.",
+        "totalPages": 328,
+        "rating": 4.7,
+        "category": "Hacking",
+        "tags": [
+            "Security",
+            "Penetration Testing"
+        ],
+        "publisher": "No Starch Press",
+        "yearOfPublishing": 2011
+    },
+    {
+        "bookId": 14,
+        "bookName": "Hacking: The Art of Exploitation",
+        "author": "Jon Erickson",
+        "image": "https://m.media-amazon.com/images/I/91UlU666haL._AC_UF1000,1000_QL80_.jpg",
+        "review": "An introduction to the fundamentals of hacking and security.",
+        "totalPages": 488,
+        "rating": 4.8,
+        "category": "Hacking",
+        "tags": [
+            "Security",
+            "Exploitation"
+        ],
+        "publisher": "No Starch Press",
+        "yearOfPublishing": 2003
+    },
+    {
+        "bookId": 15,
+        "bookName": "Black Hat Python",
+        "author": "Justin Seitz",
+        "image": "https://m.media-amazon.com/images/I/91zU8vKrk+L._AC_UF1000,1000_QL80_.jpg",
+        "review": "A guide to Python programming for hackers and pentesters.",
+        "totalPages": 192,
+        "rating": 4.6,
+        "category": "Hacking",
+        "tags": [
+            "Python",
+            "Security"
+        ],
+        "publisher": "No Starch Press",
+        "yearOfPublishing": 2014
+    },
+    {
+        "bookId": 16,
+        "bookName": "The Hacker Playbook 2",
+        "author": "Peter Kim",
+        "image": "https://m.media-amazon.com/images/I/7127-2sCmZL._AC_UF1000,1000_QL80_.jpg",
+        "review": "A practical guide to penetration testing.",
+        "totalPages": 358,
+        "rating": 4.7,
+        "category": "Hacking",
+        "tags": [
+            "Security",
+            "Penetration Testing"
+        ],
+        "publisher": "CreateSpace Independent Publishing Platform",
+        "yearOfPublishing": 2015
+    },
+    {
+        "bookId": 17,
+        "bookName": "Practical Malware Analysis",
+        "author": "Michael Sikorski",
+        "image": "https://m.media-amazon.com/images/I/81wIATT3RRL._AC_UF1000,1000_QL80_.jpg",
+        "review": "A guide to analyzing and understanding malware.",
+        "totalPages": 800,
+        "rating": 4.8,
+        "category": "Hacking",
+        "tags": [
+            "Security",
+            "Malware"
+        ],
+        "publisher": "No Starch Press",
+        "yearOfPublishing": 2012
+    },
+    {
+        "bookId": 18,
+        "bookName": "Gray Hat Hacking",
+        "author": "Allen Harper",
+        "image": "https://m.media-amazon.com/images/I/61LJmpiYaSL._AC_UF1000,1000_QL80_.jpg",
+        "review": "The ethical hacker's handbook.",
+        "totalPages": 576,
+        "rating": 4.6,
+        "category": "Hacking",
+        "tags": [
+            "Security",
+            "Ethical Hacking"
+        ],
+        "publisher": "McGraw-Hill Education",
+        "yearOfPublishing": 2004
+    },
+    {
+        "bookId": 19,
+        "bookName": "Linux Basics for Hackers",
+        "author": "OccupyTheWeb",
+        "image": "https://cdn.dc5.ro/img-prod/255922247-0.jpeg",
+        "review": "An introduction to the Linux operating system and command line for beginners.",
+        "totalPages": 248,
+        "rating": 4.7,
+        "category": "Linux",
+        "tags": ["Security", "Linux"],
+        "publisher": "No Starch Press",
+        "yearOfPublishing": 2018
+    },
+    {
+        "bookId": 20,
+        "bookName": "Networking for Hackers",
+        "author": "Bryan Burns",
+        "image": "https://m.media-amazon.com/images/I/61Rp8kZQLIL._AC_UF1000,1000_QL80_.jpg",
+        "review": "A beginner's guide to networking concepts essential for hackers.",
+        "totalPages": 312,
+        "rating": 4.5,
+        "category": "Networking",
+        "tags": ["Security", "Networking"],
+        "publisher": "No Starch Press",
+        "yearOfPublishing": 2020
+    },
+    {
+        "bookId": 21,
+        "bookName": "Mastering Linux Security and Hardening",
+        "author": "Donald A. Tevault",
+        "image": "https://m.media-amazon.com/images/I/71m0+dJ8m8L._AC_UF1000,1000_QL80_.jpg",
+        "review": "Techniques and tools for securing a Linux system.",
+        "totalPages": 504,
+        "rating": 4.6,
+        "category": "Linux",
+        "tags": ["Security", "Linux"],
+        "publisher": "Packt Publishing",
+        "yearOfPublishing": 2018
+    },
+    {
+        "bookId": 22,
+        "bookName": "The Linux Command Line",
+        "author": "William E. Shotts Jr.",
+        "image": "https://m.media-amazon.com/images/I/81tKmn7KX1L._AC_UF1000,1000_QL80_.jpg",
+        "review": "A comprehensive introduction to the Linux command line.",
+        "totalPages": 480,
+        "rating": 4.8,
+        "category": "Linux",
+        "tags": ["Linux", "Command Line"],
+        "publisher": "No Starch Press",
+        "yearOfPublishing": 2012
+    },
+    {
+        "bookId": 23,
+        "bookName": "Android Hacker's Handbook",
+        "author": "Joshua J. Drake",
+        "image": "https://m.media-amazon.com/images/I/61xjT5j5lzL._AC_UF894,1000_QL80_.jpg",
+        "review": "A detailed guide to the ins and outs of Android security.",
+        "totalPages": 576,
+        "rating": 4.7,
+        "category": "Android Hacking",
+        "tags": ["Security", "Android"],
+        "publisher": "Wiley",
+        "yearOfPublishing": 2014
+    },
+    {
+        "bookId": 24,
+        "bookName": "The Tangled Web",
+        "author": "Michal Zalewski",
+        "image": "https://m.media-amazon.com/images/I/81LkHWI1iQL._AC_UF1000,1000_QL80_.jpg",
+        "review": "A detailed exploration of the complex and poorly understood internals of web browsers.",
+        "totalPages": 320,
+        "rating": 4.6,
+        "category": "Networking",
+        "tags": ["Security", "Web"],
+        "publisher": "No Starch Press",
+        "yearOfPublishing": 2011
+    }
+]
