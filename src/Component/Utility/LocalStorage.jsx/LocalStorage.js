@@ -9,7 +9,7 @@ const getItemFromReadingLocalStorage = () => {
 }
 const setItemToReadingLocalStorage = bookIdINT => {
     const storedBookToReadingList = getItemFromReadingLocalStorage();
-    const exists = storedBookToReadingList.find(bookID => bookID.bookId === bookIdINT);
+    const exists = storedBookToReadingList.find(bookId => bookId === bookIdINT);
     if (!exists) {
         storedBookToReadingList.push(bookIdINT);
         localStorage.setItem("readingList", JSON.stringify(storedBookToReadingList));
@@ -26,7 +26,7 @@ const getItemFromWishLocalStorage = () => {
 }
 const setItemToWishLocalStorage = bookIdINT => {
     const storedBookToWishList = getItemFromWishLocalStorage();
-    const exists = storedBookToWishList.find(bookID => bookID.bookId === bookIdINT);
+    const exists = storedBookToWishList.find(bookID => bookID === bookIdINT);
     if (!exists) {
         storedBookToWishList.push(bookIdINT);
         localStorage.setItem("wishList", JSON.stringify(storedBookToWishList));
@@ -38,4 +38,4 @@ const setItemToWishLocalStorage = bookIdINT => {
 
 
 
-export { setItemToWishLocalStorage, setItemToReadingLocalStorage }
+export { setItemToWishLocalStorage, setItemToReadingLocalStorage,getItemFromWishLocalStorage,getItemFromReadingLocalStorage }

@@ -2,7 +2,7 @@ import { useLoaderData, useParams } from "react-router-dom";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import swal from 'sweetalert';
-import { setItemToReadingLocalStorage, setItemToWishLocalStorage } from "../Utility/LocalStorage.jsx/LocalStorage";
+import { getItemFromReadingLocalStorage, getItemFromWishLocalStorage, setItemToReadingLocalStorage, setItemToWishLocalStorage } from "../Utility/LocalStorage.jsx/LocalStorage";
 
 
 const BookDetails = () => {
@@ -15,18 +15,29 @@ const BookDetails = () => {
 
 
 
-    const sweetAlert = () => {
-        swal("You have already added this book to your list.");
-    }
-
     const handleLocalStorageReadingList = () => {
-        setItemToReadingLocalStorage(bookIdINT);
-        toast.success("Added to Reading List");
+
+        const storedBookToReadingList = getItemFromReadingLocalStorage();
+        const exists = storedBookToReadingList.find(bookId => bookId === bookIdINT);
+        if (exists) {
+            swal("You have already added this book to your Reading list!");
+        }
+        else {
+            setItemToReadingLocalStorage(bookIdINT);
+            toast.success("Added to Reading List");
+        }
     }
 
     const handleLocalStorageWishList = () => {
-        setItemToWishLocalStorage(bookIdINT);
-        toast.success("Added to Wish List");
+        const storedBookToWishList = getItemFromWishLocalStorage();
+        const exists = storedBookToWishList.find(bookID => bookID === bookIdINT);
+        if (exists) {
+            swal("You have already added this book to your Wishlist!");
+        }
+        else {
+            setItemToWishLocalStorage(bookIdINT);
+            toast.success("Added to Wish List");
+        }
     }
 
 
