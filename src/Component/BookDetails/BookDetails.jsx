@@ -30,9 +30,15 @@ const BookDetails = () => {
 
     const handleLocalStorageWishList = () => {
         const storedBookToWishList = getItemFromWishLocalStorage();
+        const storedBookToReadingList = getItemFromReadingLocalStorage();
+        const readinListIsExists = storedBookToReadingList.find(readingListBookId => readingListBookId === bookIdINT)
         const exists = storedBookToWishList.find(bookID => bookID === bookIdINT);
-        if (exists) {
-            swal("You have already added this book to your Wishlist!");
+        if (readinListIsExists) {
+            swal("You have added this book to Reading List. That is why you can not add this book to WishList.");
+            if (exists) {
+                swal("You have already added this book to your Wishlist!");
+
+            }
         }
         else {
             setItemToWishLocalStorage(bookIdINT);
