@@ -2,7 +2,8 @@ import { useLoaderData, useParams } from "react-router-dom";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import swal from 'sweetalert';
-import { setItemTLocalStorage } from "../Utility/LocalStorage.jsx/LocalStorage";
+import { setItemToReadingLocalStorage, setItemToWishLocalStorage } from "../Utility/LocalStorage.jsx/LocalStorage";
+
 
 const BookDetails = () => {
 
@@ -19,12 +20,12 @@ const BookDetails = () => {
     }
 
     const handleLocalStorageReadingList = () => {
-        setItemTLocalStorage(bookIdINT);
+        setItemToReadingLocalStorage(bookIdINT);
         toast.success("Added to Reading List");
     }
 
     const handleLocalStorageWishList = () => {
-        setItemTLocalStorage(bookIdINT);
+        setItemToWishLocalStorage(bookIdINT);
         toast.success("Added to Wish List");
     }
 
