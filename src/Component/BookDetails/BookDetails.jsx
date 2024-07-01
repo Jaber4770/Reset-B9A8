@@ -11,14 +11,14 @@ const BookDetails = () => {
     const { bookId } = useParams();
     const bookIdINT = parseInt(bookId);
 
-    const book = books.find(book => book.bookId === bookIdINT);
+    const book = books?.find(book => book.bookId === bookIdINT);
 
 
 
     const handleLocalStorageReadingList = () => {
 
         const storedBookToReadingList = getItemFromReadingLocalStorage();
-        const exists = storedBookToReadingList.find(bookId => bookId === bookIdINT);
+        const exists = storedBookToReadingList?.find(bookId => bookId === bookIdINT);
         if (exists) {
             swal("You have already added this book to your Reading list!");
         }
@@ -31,8 +31,8 @@ const BookDetails = () => {
     const handleLocalStorageWishList = () => {
         const storedBookToWishList = getItemFromWishLocalStorage();
         const storedBookToReadingList = getItemFromReadingLocalStorage();
-        const readinListIsExists = storedBookToReadingList.find(readingListBookId => readingListBookId === bookIdINT)
-        const exists = storedBookToWishList.find(bookID => bookID === bookIdINT);
+        const readinListIsExists = storedBookToReadingList?.find(readingListBookId => readingListBookId === bookIdINT)
+        const exists = storedBookToWishList?.find(bookID => bookID === bookIdINT);
         if (readinListIsExists) {
             swal("You have added this book to Reading List. That is why you can not add this book to WishList.");
             if (exists) {
