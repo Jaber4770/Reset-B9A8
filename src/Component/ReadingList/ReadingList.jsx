@@ -36,9 +36,6 @@ const ReadingList = () => {
         }
     }, [lsBookId, bookId]);
 
-    console.log(matchedID);
-
-
     return (
         <div>
             <div className="pt-16">

@@ -1,20 +1,9 @@
-import { useEffect, useState } from "react";
 import { FaChevronDown } from "react-icons/fa";
-import { Link, Outlet, useLoaderData } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 
 const ListedBooks = () => {
 
-/*     const [bookId, setBookId] = useState([]);
-    const BookDataLoader = useLoaderData();
-
-    useEffect(() => {
-        if (BookDataLoader) {
-            const ids = BookDataLoader.map(book => book.bookId);
-            setBookId(ids);
-        }
-    }, [BookDataLoader]);
- */
 
 
     return (
